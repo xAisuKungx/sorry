@@ -9,8 +9,9 @@ if (yesBtn && noBtn && mainImage) {
 
   // YES = ไปหน้า page1
   yesBtn.addEventListener("click", () => {
-    window.location.href = "page1.html";
+    window.open("page1.html", "_self");
   });
+
 
   // รายชื่อรูปที่ต้องสุ่มตอนกด NO
   const cryImages = ["cry1.gif", "cry2.gif", "cry3.gif"];
@@ -92,4 +93,5 @@ if (welcomeMessage) {
     if (bgMusic.paused) bgMusic.play();
   });
 }
+
 
