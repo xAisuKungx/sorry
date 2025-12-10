@@ -8,7 +8,8 @@
 </head>
 <body>
 
-  <main class="container">
+  <!-- หน้าเดิมของ index -->
+  <main id="page1" class="container">
     <section class="form-section">
 
       <h1>Will you forgive me?</h1>
@@ -20,6 +21,20 @@
         <button id="btnNo" class="btn">No</button>
       </div>
 
+    </section>
+  </main>
+
+
+  <!-- หน้าเดิมของ page1.html -->
+  <main id="page2" class="container" style="display:none;">
+    <div id="emoji-container"></div>
+
+    <audio id="bgMusic" src="bgmusic.mp3" autoplay loop></audio>
+
+    <section class="message-section">
+      <img src="ily.gif" class="main-img">
+      <h1>I knew you would forgive me!</h1>
+      <p id="welcomeMessage"></p>
     </section>
   </main>
 
