@@ -9,7 +9,7 @@ if (yesBtn && noBtn && mainImage) {
 
   // YES = ไปหน้า page1
   yesBtn.addEventListener("click", () => {
-    window.location.href = location.origin + "/page1.html";
+    window.location.href = location.origin + "page1.html";
 });
 
 
@@ -94,6 +94,7 @@ if (welcomeMessage) {
     if (bgMusic.paused) bgMusic.play();
   });
 }
+
 
 
 
