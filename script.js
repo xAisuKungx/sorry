@@ -70,7 +70,7 @@ if (welcomeMessage) {
     window.location.href = "index.html";
   }
 
-  const emojis = ['❤️', '✨'];
+  const emojis = ['🩷', '✨'];
 
   function createEmoji() {
     const emoji = document.createElement('div');
@@ -92,3 +92,4 @@ if (welcomeMessage) {
     if (bgMusic.paused) bgMusic.play();
   });
 }
+
