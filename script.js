@@ -61,7 +61,7 @@ function startSecondPage() {
 
   if (welcomeMessage) welcomeMessage.textContent = "";
 
-  const emojis = ['❤️', '✨'];
+  const emojis = ['💗', '✨'];
 
   function createEmoji() {
     const emoji = document.createElement('div');
@@ -83,3 +83,4 @@ function startSecondPage() {
     if (bgMusic.paused) bgMusic.play();
   });
 }
+
