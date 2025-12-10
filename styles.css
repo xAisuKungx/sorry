@@ -123,3 +123,11 @@ p {
   gap: 3vw;
   margin-top: 4vw;
 }
+
+#btnYes {
+  position: relative;
+  z-index: 9999;
+}
+
+
+
